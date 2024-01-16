@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(135, 151, 107, 0.576);
+            margin: 0px;
+        }
+        header {
+            background-color: rgba(85, 107, 47, 0.863);
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgba(135, 151, 107, 0.973);
+            padding: 3px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.26);
+        }
+        article {
+            background-color: rgba(135, 151, 107, 0.576);
+            padding: 5px;
+        }
+       article > aside > p {
+        background-color: rgba(135, 151, 107, 0.534);
+       }
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding: 3px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="@">link</a>
+            <a href="@">link</a>
+            <a href="@">link</a>
+            <a href="@">link</a>
+            <a href="@">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Ja estão entre nós?</p>
+        </section>
+        <section id="noticias">
+        <article>
+            <h1>Notícias sobre alienigenas</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus suscipit sed nisi fugiat id cumque. Temporibus reiciendis adipisci nemo quam voluptate impedit asperiores deleniti unde mollitia ipsa, sed veniam commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sint consequuntur eius eos dolores nam aperiam, adipisci veniam dolorem error praesentium cupiditate excepturi nobis placeat? Rerum eos accusamus aliquid. Quas?</p>
+            <aside>
+                <p>Artigo escrito por Dalgeni</p>
+            </aside>
+        </article>
+        </section>
+        <article>
+
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo </p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
